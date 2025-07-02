@@ -41,6 +41,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    /* font-family: var(--font-modern-negra); */
 }
 
 @utility radial-gradient {
@@ -75,7 +76,7 @@ body {
             @apply font-modern-negra text-3xl -mb-2;
         }
 
-        Link {
+        a {
             @apply cursor-pointer text-nowrap md:text-base text-sm;
         }
 
@@ -124,7 +125,7 @@ body {
                         @apply text-left;
                     }
 
-                    Link {
+                    a {
                         @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
                     }
                 }
